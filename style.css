@@ -1,0 +1,40 @@
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width:100%; 
+    height:100vh;
+    overflow:hidden;
+    background:rgb(2, 117, 248);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right top, hsla(0, 5%,15%, 0.5), hsla(0, 5%, 5%,1));
+        color: rgb(205, 224, 223);
+        font: 100% Lato, Arial, Sans Serif;
+        padding: 0;
+        overflow-x: hidden;
+        outline: 0;
+}
+#filereader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30%;
+}
+#filereader img{
+    height: 10rem;
+    width: 10rem;
+    border: 1rem #03d6e6 solid;
+    border-radius: 25%;
+    color: #03d6e6;
+}
+input[type=file] {
+    display: none;
+}
+#media_box{
+    position: absolute;
+    z-index: 2;
+}
